@@ -1,0 +1,72 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#navbarNav
+{
+    justify-content: flex-end;
+}
+.navbar-brand
+{
+    color: rgb(138, 58, 74) !important;
+    font-size: 2rem !important;
+    padding-left: 2rem !important;
+}
+#nav-bar 
+{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar
+{
+    background-image: linear-gradient(to right, #601b80,  #602ee7);;
+    padding: 0 !important;
+    
+}
+.navbar-nav li
+{
+    padding: 0 10px;
+}
+.navbar-nav li a
+{
+    color: rgb(237, 230, 247);
+    font-weight: 500;
+}
+
+/* banner */
+
+.banner
+{
+    background-image: linear-gradient(to right, #000000,  #000000);
+}
+i
+{
+    
+}
+
+
+.centerdiv
+{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.k
+{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    text-align: center;
+    margin: 50px;
+    border-color: #000000;
+    box-shadow: 9px 9px 2px 2px ;
+
+}
